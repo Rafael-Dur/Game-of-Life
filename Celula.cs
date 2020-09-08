@@ -9,14 +9,15 @@ public class Celula
         IsLive=isLive;
     }
 
-    public bool IsLive{
-        get{
+    public bool IsLive
+    {
+        get
+        {
             return isLive;
         }
-        set{
-            
+        set
+        {
             isLive=value;
         }
     }
-
 }
